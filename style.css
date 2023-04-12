@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,white,rgb(94, 73, 3));
+}
+.container-wall{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: auto;
+    width: 1000px;
+    height: 600px;
+    border: 1rem solid red;
+}
+#ball-object{
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: white;
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 100px 100px, #ffffff, #292727);
+    /* animation-name: horizontalMove; */
+    /* animation-duration: 4s;
+    animation-timing-function: linear; */
+}
+/* @keyframes horizontalMove{
+    from {left: 0px;}
+    to {left: calc(100% - 50px);}
+} */
